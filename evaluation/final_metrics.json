@@ -1,0 +1,8 @@
+{
+    "total_questions": 20,
+    "accuracy": 0.0,
+    "faithfulness": 0.0,
+    "usefulness": 0.2,
+    "avg_retries": 2.0,
+    "avg_rewrites": 0.25
+}

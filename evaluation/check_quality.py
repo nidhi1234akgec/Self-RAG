@@ -3,11 +3,13 @@ import sys
 
 results = pd.read_csv("evaluation/evaluation_results.csv")
 
-accuracy = (
-    (results["expected_answer"].str.lower().str.strip() ==
-     results["generated_answer"].str.lower().str.strip())
-    .mean()
-) * 100
+
+accuracy = ((
+    (results["issup"] == "fully_supported")
+    &
+    (results["isuse"] == "useful")
+).mean()) * 100
+
 
 faithfulness = (
     (results["issup"] == "fully_supported").mean()

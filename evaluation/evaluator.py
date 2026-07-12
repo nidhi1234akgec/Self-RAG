@@ -17,7 +17,7 @@ from rag.graph import ask
 
 dataset = pd.read_csv(
     ROOT / "evaluation" / "golden_dataset.csv"
-).head(20)
+).head(100)
 
 
 # =====================================================

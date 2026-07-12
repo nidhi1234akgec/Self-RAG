@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Questions Evaluated | 20 |
-| Accuracy | 0.00% |
-| Faithfulness | 0.00% |
+| Questions Evaluated | 100 |
+| Accuracy | 3.00% |
+| Faithfulness | 3.00% |
 | Usefulness | 20.00% |
-| Average Retries | 2.00 |
-| Average Rewrites | 0.25 |
+| Average Retries | 2.06 |
+| Average Rewrites | 0.17 |
 
 ---
 

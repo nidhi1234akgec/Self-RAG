@@ -1,8 +1,8 @@
 {
-    "total_questions": 20,
-    "accuracy": 0.0,
-    "faithfulness": 0.0,
+    "total_questions": 100,
+    "accuracy": 0.03,
+    "faithfulness": 0.03,
     "usefulness": 0.2,
-    "avg_retries": 2.0,
-    "avg_rewrites": 0.25
+    "avg_retries": 2.06,
+    "avg_rewrites": 0.17
 }

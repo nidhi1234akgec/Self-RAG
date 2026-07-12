@@ -19,3 +19,20 @@ pydantic
 rapidfuzz
 
 tqdm
+
+
+ragas
+
+datasets
+
+rapidfuzz
+
+plotly
+
+streamlit
+
+tiktoken
+
+pandas
+
+numpy

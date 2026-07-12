@@ -48,6 +48,10 @@ jobs:
         run: |
           python evaluation/report.py
 
+      - name: Quality Gate
+        run: |
+          python evaluation/check_quality.py
+
       - name: Upload Evaluation Results
         uses: actions/upload-artifact@v4
         with:
